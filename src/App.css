@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+}
+
+.Container {
+  padding: 25px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.Top {
+  text-align: center;
+}
+
+.Title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.Searchbox {
+  margin: 30px auto;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Searchicon {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.Inputbox {
+  flex-grow: 1;
+  font-size: 1rem;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+}
+
+.Inputbox:focus {
+  outline: none;
+}
+
+.Middle {
+  margin-top: 40px;
+}

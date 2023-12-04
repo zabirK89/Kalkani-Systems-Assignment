@@ -1,0 +1,44 @@
+.Container {
+    padding-top: 25px;
+    width: 100%;
+  }
+  
+  .Searchbox {
+    margin: 30px auto;
+    background-color: #f0f0f0;
+    padding: 10px;
+    width: 60%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Searchicon {
+    padding-right: 10px;
+    margin: 10px;
+  }
+  
+  .Inputbox {
+    flex-grow: 1;
+    font-size: 1rem;
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+  }
+  
+  .Inputbox:focus {
+    outline: none;
+  }
+  
+  .Top {
+    text-align: center;
+  }
+  
+  .Title {
+    margin-bottom: 20px;
+  }
+  
+  .Middle {
+    margin-top: 40px;
+  }
+  

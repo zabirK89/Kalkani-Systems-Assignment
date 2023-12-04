@@ -1,0 +1,36 @@
+.PaginationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .PaginationBtn {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 8px 15px;
+    background-color: #63ace5; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .PaginationBtn:hover {
+    background-color: #3c8dbc;
+  }
+  
+  .PaginationInput {
+    width: 3rem;
+    text-align: center;
+    border: 1px solid #63ace5; 
+    background-color: #f0f0f0; 
+    margin: 0 5px;
+    padding: 5px;
+  }
+  
+  .PaginationInput:focus {
+    outline: none;
+    border-color: #3c8dbc; 
+  }
+  
